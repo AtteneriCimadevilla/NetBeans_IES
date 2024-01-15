@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author jd.martinezblasco
  */
 public class Prueba{
-    public static void main(String[] args) {
+    public static String main(String[] args) {
         // Uso de variables
         int numero1 = 5;
         int numero2 = 2;
@@ -53,11 +53,20 @@ public class Prueba{
         int numFinal = Scanner.nextInt();
         operacionConNumeros(numInicial, numFinal);
 
+        
+        System.out.println("Hello, world!");
+    
+        System.out.println("Hello, world!");
+    
+        System.out.println("Hello, World!");
+    
+    
+        System.out.println("Hello, Earth!");
         return "fin";
     }
 
     // Método para sumar dos números
-    public static void sumarNumeros(int a, double b) {
+    public static double sumarNumeros(int a, double b) {
         return a + b;
     }
     
@@ -77,9 +86,5 @@ public class Prueba{
     }
     
     
-    System.out.println("Hello, world!");
-    
-    System.out.println("Hello, world!");
-    
-    System.out.println("Hello, World!");
+
 }
