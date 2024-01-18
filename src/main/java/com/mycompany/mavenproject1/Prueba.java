@@ -3,13 +3,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.mavenproject1;
+
 import java.util.Scanner;
 
 /**
  *
  * @author jd.martinezblasco
  */
-public class Prueba{
+public class Prueba {
+
     public static String main(String[] args) {
         // Uso de variables
         int numero1 = 5;
@@ -26,9 +28,8 @@ public class Prueba{
         } else if (numero1 == numero2) {
             System.out.println("El número 1 es igual que el número 2");
         }
-        
-        // Representa el condicional anterior usando una condicional ternaria.
 
+        // Representa el condicional anterior usando una condicional ternaria.
         // Uso de bucles
         System.out.println("Introduce el número de repeticiones que quieres realizar");
         int numRepeticiones = Scanner.nextInt();
@@ -46,21 +47,21 @@ public class Prueba{
         // Uso de métodos
         int suma = sumarNumeros(numero1, numero2);
         System.out.println("La suma de los números es: " + suma);
-        
+
         System.out.println("Introduce el número inicial");
         int numInicial = Scanner.nextInt();
         System.out.println("Introduce el número final");
         int numFinal = Scanner.nextInt();
         operacionConNumeros(numInicial, numFinal);
 
-        
         System.out.println("Hello, world!");
-    
+
         System.out.println("Hello, world!");
-    
+
         System.out.println("Hello, World!");
-    
-    
+
+        System.out.println("Hello, mady");
+
         System.out.println("Hello, Earth!");
         return "fin";
     }
@@ -69,22 +70,20 @@ public class Prueba{
     public static double sumarNumeros(int a, double b) {
         return a + b;
     }
-    
+
     // Método para sumar dos números
     public static void sumarNumeros(double a, double b) {
         return a + b;
     }
-    
+
     // ¿Qué hace esta función? Haz el cambio necesario para que funcione y muestre únicamente por pantalla los resultados.
     // ¿Se podría optimizar el código?
     public static int operacionConNumeros(int numInicio, int numFin) {
         while (numInicio <= numFin) {
             int resultado = numInicio * numInicio;
-                System.out.println("Número" + resultado);
-                numInicio--;
-            }
+            System.out.println("Número" + resultado);
+            numInicio--;
+        }
     }
-    
-    
 
 }
